@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>EUASPanky | Admin Panel</title>
+    <link rel="icon" href="../img/mainor logo.png" />
+    <link rel="stylesheet" href="../styles/adminlogin.css" />
+    <link rel="stylesheet" href="../styles/adminpanel.css"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/054170e3d7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container adminpanelContainer">
+      <a href="../temp/index.html"><i class="fas fa-home"></i></a>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-firestore.js"></script>
+    <script
+      defer
+      src="https://www.gstatic.com/firebasejs/7.9.3/firebase-auth.js"
+    ></script>
+
+    <script>
+      const firebaseConfig = {
+        apiKey: 'AIzaSyCdd0xqy8p15N9Nb2nppPRof6clyF7r59A',
+        authDomain: 'fireapp-9a299.firebaseapp.com',
+        databaseURL: 'https://fireapp-9a299.firebaseio.com',
+        projectId: 'fireapp-9a299',
+        storageBucket: 'fireapp-9a299.appspot.com',
+        messagingSenderId: '528433420332',
+        appId: '1:528433420332:web:1eea4b88cd59e8b68c9989',
+        measurementId: 'G-QG0RC7BMSL'
+      };
+
+      firebase.initializeApp(firebaseConfig);
+      Object.freeze(firebaseConfig);
+      const db = firebase.firestore();
+    </script>
+    <script src="../scripts/adminpanel.js"></script>
+  </body>
+</html>
