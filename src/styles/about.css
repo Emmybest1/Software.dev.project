@@ -39,6 +39,12 @@
  *@{Media Query for about}
  */
 @media only screen and (max-width: 500px) {
+  .aboutUsText p {
+    width: 80%;
+    margin: 0 auto;
+    color: dodgerblue;
+    text-align: justify;
+  }
 }
 
 @media only screen and (max-width: 900px) {

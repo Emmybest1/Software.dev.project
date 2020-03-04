@@ -67,6 +67,14 @@ input[type='submit'] {
  *@{Media Query for form}
  */
 @media only screen and (max-width: 500px) {
+  select {
+    padding: 1rem;
+    height: fit-content;
+    background: #fff;
+    color: #0080ff;
+    border: solid 1px #0080ff;
+    outline: none;
+  }
 }
 
 @media only screen and (max-width: 900px) {
