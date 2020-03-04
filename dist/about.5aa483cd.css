@@ -24,6 +24,7 @@
   margin: 0 auto;
   margin-bottom: 0.7rem;
   font-weight: 300;
+  text-transform: capitalize;
 }
 
 .aboutUsText p {
