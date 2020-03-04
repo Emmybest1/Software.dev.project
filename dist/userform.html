@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EestiPanky | Idea bank</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="/mainor logo.24e544dd.png">
+    <link rel="stylesheet" href="/styles.c20161f4.css">
+    <link rel="stylesheet" href="/userform.b6a14134.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <h3>EuasPanky</h3>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/userform.html">Fill form</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Background-img -->
+      <img src="/userformBg.77b68f92.png" alt="background image" id="userformBg">
+      <!-- Form below -->
+      <form>
+        <h2>Idea bank The margical bank</h2>
+        <label for="name">Name</label>
+        <input type="text" name="senderName" id="name" placeholder="Name" required="">
+
+        <label for="email">Email</label>
+        <input type="email" name="senderEmail" id="email" placeholder="Email" required="">
+
+        <select name="department" id="department" required="">
+          <option value="Software development">Software development</option>
+          <option value="Game development">Game development</option>
+          <option value="Master in BA">Master in BA</option>
+          <option value="Creativity & Business innovation">Creativity & Business innovation</option>
+          <option value="Startup Idea">Startup Idea</option>
+        </select>
+
+        <select name="category" id="category" required="">
+          <option value="Complain">Complain</option>
+          <option value="Idea">Idea Submission</option>
+          <option value="Study review">Study review</option>
+        </select>
+
+        <textarea name="userMessage" id="message" placeholder="Type message here...." required=""></textarea>
+
+        <input type="submit" value="Submit to Bank">
+      </form>
+
+      <!-- footer -->
+      <footer>
+        <h2>Welcome to EuasPanky the Future of IT</h2>
+        <div class="footerUlsWrapper">
+          <ul>
+            <h4>Tallinn Branch</h4>
+            <li>Suur-Sõjamäe 10a</li>
+            <li>+372 610 1900</li>
+            <li>eek[at]eek.ee</li>
+            <li>Open Monday to Sunday</li>
+          </ul>
+
+          <ul>
+            <h4>Tartu Branch</h4>
+            <li>Pepleri 6</li>
+            <li>+372 738 7400</li>
+            <li>tartu[at]eek.ee</li>
+            <li>Open Monday to Friday</li>
+          </ul>
+
+          <ul>
+            <h4>Programs</h4>
+            <li><a href="">Software development</a></li>
+            <li><a href="">Game development</a></li>
+            <li><a href="">Master in business admin</a></li>
+            <li><a href="">Creativity & business innovation</a></li>
+            <li><a href="">Startup idea</a></li>
+          </ul>
+        </div>
+        <img src="/mainor logo.24e544dd.png" alt="EUAS LOGO">
+      </footer>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-firestore.js"></script>
+
+    <script>var firebaseConfig = {
+  apiKey: 'AIzaSyCdd0xqy8p15N9Nb2nppPRof6clyF7r59A',
+  authDomain: 'fireapp-9a299.firebaseapp.com',
+  databaseURL: 'https://fireapp-9a299.firebaseio.com',
+  projectId: 'fireapp-9a299',
+  storageBucket: 'fireapp-9a299.appspot.com',
+  messagingSenderId: '528433420332',
+  appId: '1:528433420332:web:1eea4b88cd59e8b68c9989',
+  measurementId: 'G-QG0RC7BMSL'
+};
+firebase.initializeApp(firebaseConfig);
+Object.freeze(firebaseConfig);
+var db = firebase.firestore();</script>
+    <script src="/userform.ea517230.js"></script>
+  </body>
+</html>

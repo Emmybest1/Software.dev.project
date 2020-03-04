@@ -102,7 +102,7 @@ header nav ul li a:hover {
  *@{Background imgage Settings below}
  */
 .backgroundImg {
-  background: url('../img/bgImg.png') no-repeat;
+  background: url('/bgImg.f9d58ebd.png') no-repeat;
   background-size: contain;
   background-attachment: scroll;
   margin: 0 auto;
@@ -354,3 +354,6 @@ footer img {
 
 @media only screen and (max-width: 1400px) {
 }
+
+
+/*# sourceMappingURL=/styles.c20161f4.css.map */

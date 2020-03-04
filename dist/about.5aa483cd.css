@@ -1,0 +1,50 @@
+/* 
+ *
+ *@{aboutUsText setting}
+ *
+ */
+
+.container {
+  overflow: hidden;
+}
+
+#aboutUsBg {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.aboutUsText {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.aboutUsText h2 {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 0.7rem;
+  font-weight: 300;
+}
+
+.aboutUsText p {
+  width: 50%;
+  margin: 0 auto;
+  color: dodgerblue;
+  text-align: justify;
+}
+
+/* *
+ *
+ *@{Media Query for about}
+ */
+@media only screen and (max-width: 500px) {
+}
+
+@media only screen and (max-width: 900px) {
+}
+
+@media only screen and (max-width: 1400px) {
+}
+
+
+/*# sourceMappingURL=/about.5aa483cd.css.map */
