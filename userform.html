@@ -27,7 +27,11 @@
       </header>
 
       <!-- Background-img -->
-      <img src="./src/img/userformBg.png" alt="background image" id="userformBg" />
+      <img
+        src="./src/img/userformBg.png"
+        alt="background image"
+        id="userformBg"
+      />
       <!-- Form below -->
       <form>
         <h2>Idea bank The margical bank</h2>
@@ -37,7 +41,8 @@
           name="senderName"
           id="name"
           placeholder="Name"
-          required/>
+          required
+        />
 
         <label for="email">Email</label>
         <input
@@ -45,17 +50,26 @@
           name="senderEmail"
           id="email"
           placeholder="Email"
-          required/>
+          required
+        />
 
         <select name="department" id="department" required>
-          <option value="Software development">Software development</option>
+          <option value="" disabled selected hidden
+            >Select your department</option
+          >
+
           <option value="Game development">Game development</option>
           <option value="Master in BA">Master in BA</option>
-          <option value="Creativity & Business innovation">Creativity & Business innovation</option>
+          <option value="Creativity & Business innovation"
+            >Creativity & Business innovation</option
+          >
           <option value="Startup Idea">Startup Idea</option>
         </select>
 
         <select name="category" id="category" required>
+          <option value="" disabled selected hidden
+            >Select submition category</option
+          >
           <option value="Complain">Complain</option>
           <option value="Idea">Idea Submission</option>
           <option value="Study review">Study review</option>
@@ -65,7 +79,8 @@
           name="userMessage"
           id="message"
           placeholder="Type message here...."
-          required></textarea>
+          required
+        ></textarea>
 
         <input type="submit" value="Submit to Bank" />
       </form>

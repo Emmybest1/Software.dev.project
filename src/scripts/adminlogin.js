@@ -23,7 +23,7 @@
           .signInWithEmailAndPassword(loginDetails.email, loginDetails.password)
           .then(() => {
             form.style.border = 'solid 1px green';
-            location.assign('/src/temp/adminpanel.html');
+            location.assign('adminpanel.html');
           })
           .catch(error => {
             const errorCode = error.code;
