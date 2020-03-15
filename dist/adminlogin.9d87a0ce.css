@@ -1,0 +1,84 @@
+/* *
+ *
+ *@{Styling for adminlogin}
+ */
+.fa-home {
+  padding-right: 0.5rem;
+  color: #0080ff;
+}
+
+img[alt='Admin login background image'] {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+}
+
+form {
+  width: 25%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: solid 1px #e4e4e4;
+  border-radius: 0.3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+form h4 {
+  text-align: center;
+  color: #1e90ff;
+}
+
+input {
+  padding: 0.5rem 1rem 0.5rem 0.3rem;
+  margin: 0.5rem 0;
+  outline: none;
+}
+
+/* *
+ *
+ *@{form validation}
+ */
+input:valid {
+  border: solid 1px #008000;
+}
+
+input:invalid {
+  border: solid 1px #ff0000;
+}
+
+input[type='submit'] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+  background: #0080ff;
+  color: #fff;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+/* *
+ *
+ *@{Media Query for adminlogin}
+ */
+@media only screen and (max-width: 500px) {
+  form {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  form {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+}
+
+
+/*# sourceMappingURL=/adminlogin.9d87a0ce.css.map */

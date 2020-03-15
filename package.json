@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/temp/*.html",
-    "build": "parcel build src/temp/*.html",
-    "watch": "parcel watch build src/temp/*.html"
+    "dev": "parcel *.html",
+    "build": "parcel build *.html",
+    "watch": "parcel watch *.html"
   },
   "keywords": [],
   "author": "",
