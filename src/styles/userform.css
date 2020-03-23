@@ -4,8 +4,9 @@
  */
 #userformBg {
   display: block;
-  width: 60%;
-  margin: 0 auto;
+  width: 40%;
+  height: 20rem;
+  margin-left: 5rem;
 }
 
 /* *
@@ -34,10 +35,38 @@ select {
 }
 
 select {
-  padding: 2rem;
-  height: 50px;
+  padding: 0.5rem 2rem;
+  height: 40px;
   background: #0080ff;
   color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+-webkit-select {
+  padding: 0.5rem 2rem;
+  height: 40px;
+  background: #0080ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+-moz-select {
+  padding: 0.5rem 2rem;
+  height: 40px;
+  background: #0080ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+-o-select {
+  padding: 0.5rem 2rem;
+  height: 40px;
+  background: #0080ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 input,

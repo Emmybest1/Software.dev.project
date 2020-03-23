@@ -3,14 +3,13 @@
  *@{aboutUsText setting}
  *
  */
-
 .container {
   overflow: hidden;
 }
 
 #aboutUsBg {
   display: block;
-  width: 100%;
+  width: 40%;
   margin: 0 auto;
 }
 
@@ -32,6 +31,7 @@
   margin: 0 auto;
   color: dodgerblue;
   text-align: justify;
+  margin-bottom: -50px;
 }
 
 /* *
